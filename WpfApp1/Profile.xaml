@@ -1,0 +1,21 @@
+﻿<Page x:Class="WpfApp1.Profile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      d:DesignHeight="812" d:DesignWidth="375"
+      Title="Profile">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Send money_03-1.png"/>
+        </Grid.Background>
+        <Button x:Name="Back" Content="&lt;" HorizontalAlignment="Left" Height="30" Margin="8,45,0,0" VerticalAlignment="Top" Width="29" Background="{x:Null}" BorderBrush="{x:Null}" Click="Back_Click"/>
+        <TextBox x:Name="log" HorizontalAlignment="Left" Height="29" Margin="164,426,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" BorderBrush="#FFFF6C6C" FontFamily="Bahnschrift" FontSize="16"/>
+        <TextBox x:Name="pas" HorizontalAlignment="Left" Height="29" Margin="164,474,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" Background="White" BorderBrush="#FFFF6C6C" FontFamily="Bahnschrift" FontSize="16"/>
+        <Button Content="Войти" HorizontalAlignment="Left" Height="32" Margin="139,555,0,0" VerticalAlignment="Top" Width="90" Background="White" FontFamily="Bahnschrift" FontSize="16" Click="Button_Click"/>
+
+    </Grid>
+</Page>

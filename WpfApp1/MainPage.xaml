@@ -1,0 +1,24 @@
+﻿<Page x:Class="_15.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:_15"        
+      mc:Ignorable="d"
+      
+      Title="MainPage" Height="811" Width="376">
+    <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="811" VerticalAlignment="Top" Width="376" Margin="-2,-1,0,0">
+        <Border.Background>
+            <ImageBrush ImageSource="/123123.png"/>
+        </Border.Background>
+        <Canvas>
+            <Border x:Name="ProfileB" BorderThickness="1" Height="38" Canvas.Left="32" Canvas.Top="93" Width="41" HorizontalAlignment="Left" VerticalAlignment="Top" MouseLeftButtonDown="ProfileB_MouseLeftButtonDown"/>
+            <Border x:Name="SettB" BorderThickness="1" Height="28" Canvas.Left="310" Canvas.Top="768" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Button Content="Button" Height="58" Canvas.Left="155" Canvas.Top="734" Width="60" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" Click="Button_Click" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <Button x:Name="prB" Content="Button" Height="22" Canvas.Left="39" Canvas.Top="771" Width="23" Click="prB_Click" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="{x:Null}"/>
+            <Button x:Name="Proff" Content="Button" Height="41" Canvas.Left="26" Canvas.Top="54" Width="41" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" HorizontalAlignment="Left" VerticalAlignment="Center" Click="Proff_Click"/>
+        </Canvas>
+
+    </Border>
+
+</Page>

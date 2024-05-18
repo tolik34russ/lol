@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="123123.png" />
+    <None Remove="a.png" />
+    <None Remove="b.png" />
+    <None Remove="c.png" />
+    <None Remove="Send money_03-1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="123123.png" />
+    <Resource Include="a.png" />
+    <Resource Include="b.png" />
+    <Resource Include="c.png" />
+    <Resource Include="Send money_03-1.png" />
+  </ItemGroup>
+
+</Project>
